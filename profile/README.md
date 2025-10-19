@@ -11,7 +11,7 @@
 ## 🧑‍💻 팀원 소개
 |              팀장               |                     팀원                       |                     팀원                      |                   팀원                  |                   팀원                  |
 | :--------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/96522559?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/217873189?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/139607397?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/118732028?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/91006942?v=4" width="100"> |
+| <img src="https://avatars.githubusercontent.com/u/163991739?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/217873189?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/166792449?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/217938046?v=4" width="100"> | <img src="https://avatars.githubusercontent.com/u/114233449?v=4" width="100"> |
 | [김규섭](https://github.com/KarubiOhayo) | [김수연](https://github.com/sooyeonz) | [김준교](https://github.com/rlawnsry) | [강동민](https://github.com/DONGMIN-777) | [박윤지](https://github.com/yunji1014) |
 
 
