@@ -316,6 +316,111 @@ src
 ```
 ### monew-batch
 ```
+src
+├── main
+│   ├── java
+│   │   └── com.codeit.batch
+│   │       ├── MonewBatchApplication.java
+│   │       ├── article
+│   │       │   ├── config
+│   │       │   │   ├── ArticleBackupJobConfig
+│   │       │   │   ├── ArticleIngestionJobConfig
+│   │       │   │   ├── AwsProperties
+│   │       │   │   ├── OpenApiProperties
+│   │       │   │   └── RssProperties
+│   │       │   ├── domain
+│   │       │   │   ├── Article
+│   │       │   │   ├── ArticleInterest
+│   │       │   │   ├── ArticleInterestId
+│   │       │   │   ├── ArticleSource
+│   │       │   │   ├── Interest
+│   │       │   │   ├── InterestKeyword
+│   │       │   │   └── InterestSubscription
+│   │       │   ├── dto
+│   │       │   │   ├── ArticleBackupDto
+│   │       │   │   ├── ArticleCandidate
+│   │       │   │   ├── NewsItem
+│   │       │   │   ├── NewsResponse
+│   │       │   │   ├── OpenApiFetchRequest
+│   │       │   │   ├── RssFeedItem
+│   │       │   │   └── RssFeedResponse
+│   │       │   ├── fetcher
+│   │       │   │   ├── ArticleFetchException
+│   │       │   │   ├── OpenApiArticleFetcher
+│   │       │   │   └── RssArticleFetcher
+│   │       │   ├── listener
+│   │       │   │   ├── ArticleInterestAggregationListener
+│   │       │   │   └── InterestNotificationPublisher
+│   │       │   ├── mapper
+│   │       │   │   └── ArticleBackupDtoMapper
+│   │       │   ├── processor
+│   │       │   │   ├── ArticleBackupProcessor
+│   │       │   │   └── ArticleProcessor
+│   │       │   ├── reader
+│   │       │   │   ├── ArticleBackupReader
+│   │       │   │   ├── OpenApiArticleReader
+│   │       │   │   └── RssArticleReader
+│   │       │   ├── repository
+│   │       │   │   ├── ArticleRepository
+│   │       │   │   ├── InterestKeywordRepository
+│   │       │   │   ├── InterestRepository
+│   │       │   │   └── InterestSubscriptionRepository
+│   │       │   ├── scheduler
+│   │       │   │   └── ArticleScheduler
+│   │       │   ├── storage
+│   │       │   │   ├── BackupStorageException
+│   │       │   │   └── S3BackupStorage
+│   │       │   ├── tasklet
+│   │       │   │   └── ArticleIngestionTasklet
+│   │       │   └── writer
+│   │       │       ├── ArticleBackupWriter
+│   │       │       └── ArticleWriter
+│   │       ├── common
+│   │       │   ├── base
+│   │       │   │   ├── BaseDomain
+│   │       │   │   └── BaseUpdatableDomain
+│   │       │   ├── config
+│   │       │   │   └── QuerydslConfig
+│   │       │   └── metrics
+│   │       │       ├── BatchJobMetricsListener
+│   │       │       ├── CloudWatchMetricsConfig
+│   │       │       └── CloudWatchMetricsProperties
+│   │       ├── log
+│   │       │   ├── domain
+│   │       │   │   └── IngestionLog
+│   │       │   ├── repository
+│   │       │   │   └── ArticleLogRepository
+│   │       │   └── service
+│   │       │       └── MonewBatchScheduler
+│   │       ├── notification
+│   │       │   ├── config
+│   │       │   │   └── NotificationDeleteConfig
+│   │       │   ├── domain
+│   │       │   │   └── Notification
+│   │       │   ├── repository
+│   │       │   │   ├── NotificationQueryRepository
+│   │       │   │   ├── NotificationQueryRepositoryImpl
+│   │       │   │   └── NotificationRepository
+│   │       │   ├── service
+│   │       │   │   └── NotificationService
+│   │       │   └── tasklet
+│   │       │       └── NotificationDeleteTasklet
+│   │       └── user.domain
+│   │           └── User
+│   └── resources
+│       ├── app-schema-postgres.sql
+│       ├── application.yaml
+│       ├── application-dev.yaml
+│       ├── application-prod.yaml
+│       ├── application-test.yaml
+│       ├── batch-schema-postgres.sql
+│       ├── data.sql
+│       ├── schema-create.sql
+│       ├── schema-h2.sql
+│       └── schema_batch.sql
+└── test
+    └── java
+        └── com.codeit.batch
 ```
 
 ## 📺구현 홈페이지
