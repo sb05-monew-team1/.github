@@ -1,4 +1,4 @@
-# MoNew - team1
+ # MoNew - team1
 📰 흩어진 뉴스를 한 곳에, 관심 있는 주제만 모아보세요!
 모뉴(MoNew)는 다양한 뉴스 출처를 통합하여 관심사 기반으로 뉴스를 저장하는 뉴스 통합 관리 플랫폼입니다.
 관심 있는 주제의 기사가 등록되면 실시간 알림을 받고, 댓글과 좋아요를 통해 다른 사용자와 의견을 나눌 수 있는 소셜 기능도 함께 제공됩니다. 🗞️💬
@@ -35,8 +35,8 @@
 ### DB
 <div align=left> 
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/h2database-%09476B?style=for-the-badge&logo=h2database&logoColor=white">
-  <img src="https://img.shields.io/badge/mongoDB-%47A248?style=for-the-badge&logo=mongoDB&logoColor=white">
+  <img src="https://img.shields.io/badge/h2database-09476B?style=for-the-badge&logo=h2database&logoColor=white">
+  <img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=mongoDB&logoColor=white">
 </div>
 
 ### CI/CD
