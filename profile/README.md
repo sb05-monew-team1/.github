@@ -41,7 +41,7 @@
 
 ### CI/CD
 <div align=left> 
-  <img src="https://img.shields.io/badge/githubactionss-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img src="https://img.shields.io/badge/github actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
   <img src="https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=Amazon&logoColor=white">
   <img src="https://img.shields.io/badge/sonarqubecloud-126ED3?style=for-the-badge&logo=sonarqubecloud&logoColor=white">  
 </div>
