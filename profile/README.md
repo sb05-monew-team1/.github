@@ -28,21 +28,21 @@
 <div align=left> 
   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
   <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
+  <img src="https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
   <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=JUnit5&logoColor=white">
 </div>
 
 ### DB
 <div align=left> 
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/h2 database-%09476B?style=for-the-badge&logo=h2 database&logoColor=white">
+  <img src="https://img.shields.io/badge/h2database-%09476B?style=for-the-badge&logo=h2database&logoColor=white">
   <img src="https://img.shields.io/badge/mongoDB-%47A248?style=for-the-badge&logo=mongoDB&logoColor=white">
 </div>
 
 ### CI/CD
 <div align=left> 
-  <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white">
-  <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white">
+  <img src="https://img.shields.io/badge/githubactionss-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=Amazon&logoColor=white">
   <img src="https://img.shields.io/badge/sonarqubecloud-126ED3?style=for-the-badge&logo=sonarqubecloud&logoColor=white">  
 </div>
 
