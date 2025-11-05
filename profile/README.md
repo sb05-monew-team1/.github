@@ -6,7 +6,7 @@
 ## 🔍 프로젝트 개요
 - **프로젝트 기간**: 2025.10.17 ~ 2025.11.10
 - **목표**: 관심사 기반 뉴스 통합 및 안정적인 데이터 관리 시스템 구축
-- [Notion](https://messy-freighter-299.notion.site/Team-1-Monew-2925223d614c8049931df3ad4cb0c16d)
+- [Monew Team1 Notion](https://messy-freighter-299.notion.site/Team-1-Monew-2925223d614c8049931df3ad4cb0c16d)
 
 ## 🧑‍💻 팀원 소개
 |              팀장               |                     팀원                       |                     팀원                      |                   팀원                  |                   팀원                  |
@@ -16,12 +16,41 @@
 
 
 ## ⚙️ 기술 스택
+### Front-end
+<div align=left> 
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
+</div>
+
+### Back-end
 <div align=left> 
   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
-  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=Spring Security&logoColor=white">
+  <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=JUnit5&logoColor=white">
+</div>
+
+### DB
+<div align=left> 
   <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/h2 database-%09476B?style=for-the-badge&logo=h2 database&logoColor=white">
+  <img src="https://img.shields.io/badge/mongoDB-%47A248?style=for-the-badge&logo=mongoDB&logoColor=white">
+</div>
+
+### CI/CD
+<div align=left> 
+  <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHub Actions&logoColor=white">
+  <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white">
+  <img src="https://img.shields.io/badge/sonarqubecloud-126ED3?style=for-the-badge&logo=sonarqubecloud&logoColor=white">  
+</div>
+
+### Collab Tool
+<div align=left> 
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+  <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 </div>
 
 ## 📍 주요 기능
