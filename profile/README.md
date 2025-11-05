@@ -78,11 +78,248 @@
 
 
 ## 📂 파일 구조
-
+### monew-app
+```
+src
+├── main
+│   ├── java
+│   │   └── com.codeit.monew
+│   │       ├── MonewApplication.java
+│   │       ├── activity
+│   │       │   ├── controller
+│   │       │   │   └── UserActivityController
+│   │       │   ├── domain
+│   │       │   │   └── UserActivity
+│   │       │   ├── dto
+│   │       │   │   └── UserActivityDto
+│   │       │   ├── exception
+│   │       │   │   ├── UserActivityException
+│   │       │   │   └── UserActivityNotFoundException
+│   │       │   ├── mapper
+│   │       │   │   └── UserActivityMapper
+│   │       │   ├── repository
+│   │       │   │   └── UserActivityRepository
+│   │       │   └── service
+│   │       │       └── UserActivityService
+│   │       ├── article
+│   │       │   ├── controller
+│   │       │   │   └── ArticleController
+│   │       │   ├── domain
+│   │       │   │   ├── Article
+│   │       │   │   ├── ArticleSource
+│   │       │   │   └── ArticleView
+│   │       │   ├── dto
+│   │       │   │   ├── ArticleBackupDto
+│   │       │   │   ├── ArticleDto
+│   │       │   │   ├── ArticleRestoreResultDto
+│   │       │   │   ├── ArticleSearchRequest
+│   │       │   │   ├── ArticleSearchRequestFromService
+│   │       │   │   ├── ArticleSearchResultDto
+│   │       │   │   └── ArticleViewDto
+│   │       │   ├── exception
+│   │       │   │   ├── ArticleException
+│   │       │   │   ├── ArticleNotFoundException
+│   │       │   │   └── ArticleViewAlreadyExistException
+│   │       │   ├── mapper
+│   │       │   │   ├── ArticleMapper
+│   │       │   │   └── ArticleViewMapper
+│   │       │   ├── repository
+│   │       │   │   ├── impl
+│   │       │   │   │   ├── ArticleQueryRepositoryImpl
+│   │       │   │   │   └── ArticleViewQueryRepositoryImpl
+│   │       │   │   ├── ArticleQueryRepository
+│   │       │   │   ├── ArticleRepository
+│   │       │   │   ├── ArticleViewQueryRepository
+│   │       │   │   └── ArticleViewRepository
+│   │       │   └── service
+│   │       │       ├── ArticleService
+│   │       │       └── ArticleStorage
+│   │       ├── comment
+│   │       │   ├── controller
+│   │       │   │   └── CommentController
+│   │       │   ├── domain
+│   │       │   │   ├── Comment
+│   │       │   │   └── CommentLike
+│   │       │   ├── dto
+│   │       │   │   ├── CommentActivityDto
+│   │       │   │   ├── CommentDto
+│   │       │   │   ├── CommentLikeActivityDto
+│   │       │   │   ├── CommentLikeDto
+│   │       │   │   ├── CommentLikeRequest
+│   │       │   │   ├── CommentRegisterRequest
+│   │       │   │   ├── CommentSearchRequest
+│   │       │   │   └── CommentUpdateRequest
+│   │       │   ├── mapper
+│   │       │   │   └── CommentMapper
+│   │       │   ├── repository
+│   │       │   │   ├── impl
+│   │       │   │   │   ├── CommentLikeQueryRepositoryImpl
+│   │       │   │   │   └── CommentQueryRepositoryImpl
+│   │       │   │   ├── CommentLikeQueryRepository
+│   │       │   │   ├── CommentLikeRepository
+│   │       │   │   ├── CommentQueryRepository
+│   │       │   │   └── CommentRepository
+│   │       │   └── service
+│   │       │       └── CommentService
+│   │       ├── common
+│   │       │   ├── base
+│   │       │   │   ├── BaseDomain
+│   │       │   │   └── BaseUpdatableDomain
+│   │       │   ├── config
+│   │       │   │   ├── AwsProperties
+│   │       │   │   ├── QuerydslConfig
+│   │       │   │   └── SecurityConfig
+│   │       │   ├── dto
+│   │       │   │   └── CursorPageResponse
+│   │       │   ├── exception
+│   │       │   │   ├── storage
+│   │       │   │   │   ├── StorageException
+│   │       │   │   │   └── BusinessException
+│   │       │   │   ├── ErrorCode
+│   │       │   │   ├── ErrorResponse
+│   │       │   │   └── GlobalExceptionHandler
+│   │       │   ├── log
+│   │       │   │   └── MdcLoggingFilter
+│   │       │   └── util
+│   │       │       ├── PageResponseMapper
+│   │       │       └── SearchRequestNormalizer
+│   │       ├── interest
+│   │       │   ├── controller
+│   │       │   │   └── InterestController
+│   │       │   ├── domain
+│   │       │   │   ├── Interest
+│   │       │   │   ├── InterestKeyword
+│   │       │   │   └── InterestSubscription
+│   │       │   ├── dto
+│   │       │   │   ├── InterestDto
+│   │       │   │   ├── InterestRegisterRequest
+│   │       │   │   ├── InterestSearchRequest
+│   │       │   │   ├── InterestUpdateRequest
+│   │       │   │   └── SubscriptionDto
+│   │       │   ├── mapper
+│   │       │   │   └── InterestMapper
+│   │       │   ├── repository
+│   │       │   │   ├── impl
+│   │       │   │   │   └── InterestSubscriptionQueryRepositoryImpl
+│   │       │   │   ├── InterestKeywordRepository
+│   │       │   │   ├── InterestRepository
+│   │       │   │   ├── InterestSubscriptionQueryRepository
+│   │       │   │   └── InterestSubscriptionRepository
+│   │       │   └── service
+│   │       │       └── InterestService
+│   │       ├── notification
+│   │       │   ├── controller
+│   │       │   │   └── NotificationController
+│   │       │   ├── domain
+│   │       │   │   └── Notification
+│   │       │   ├── dto
+│   │       │   │   ├── NotificationCreateRequest
+│   │       │   │   └── NotificationDto
+│   │       │   ├── exception
+│   │       │   │   ├── NotificationException
+│   │       │   │   └── NotificationNotFoundException
+│   │       │   ├── repository
+│   │       │   │   ├── NotificationQueryRepository
+│   │       │   │   ├── NotificationQueryRepositoryImpl
+│   │       │   │   └── NotificationRepository
+│   │       │   └── service
+│   │       │       └── NotificationService
+│   │       └── user
+│   │           ├── controller
+│   │           │   └── UserController
+│   │           ├── domain
+│   │           │   └── User
+│   │           ├── dto
+│   │           │   ├── UserDto
+│   │           │   ├── UserLoginRequest
+│   │           │   ├── UserLoginResponse
+│   │           │   ├── UserRegisterRequest
+│   │           │   └── UserUpdateRequest
+│   │           ├── exception
+│   │           │   ├── UserAlreadyDeletedException
+│   │           │   ├── UserAlreadyExistsException
+│   │           │   ├── UserException
+│   │           │   ├── UserForbiddenException
+│   │           │   ├── UserLoginFailedException
+│   │           │   ├── UserNotFoundException
+│   │           │   └── UserNotSoftDeletedException
+│   │           ├── mapper
+│   │           │   └── UserMapper
+│   │           ├── repository
+│   │           │   └── UserRepository
+│   │           └── service
+│   │               ├── UserCleanupService
+│   │               ├── UserDetailsServiceImpl
+│   │               └── UserService
+│   └── resources
+│       ├── static
+│       │   ├── .well-known.appspecific
+│       │   │   └── com.chrome.devtools.json
+│       │   ├── assets
+│       │   │   ├── index-BBLcifoK.js
+│       │   │   ├── index-CHX_5t7G.css
+│       │   │   ├── landing_comments-BoMt6RvV.svg
+│       │   │   ├── landing_interests-CBQzCgwG.svg
+│       │   │   └── landing_notifications-BkwzqdfE.svg
+│       │   ├── fonts.pretendard
+│       │   │   ├── LICENSE.txt
+│       │   │   ├── Pretendard-Bold.woff2
+│       │   │   ├── Pretendard-Regular.woff2
+│       │   │   └── PretendardVariable.woff2
+│       │   ├── favicon.ico
+│       │   └── index.html
+│       ├── application.yml
+│       ├── application-dev.yml
+│       ├── application-prod.yml
+│       ├── application-test.yml
+│       ├── data.sql
+│       ├── logback-spring.xml
+│       ├── schema-h2.sql
+│       └── schema-postgres.sql
+└── test
+    └── java
+        └── com.codeit.monew
+            ├── activity
+            │   └── exception
+            │       ├── UserActivityExceptionTest
+            │       └── UserActivityServiceTest
+            ├── article
+            │   ├── ArticleApiIntegrationTest
+            │   ├── ArticleRepositoryTest
+            │   └── ArticleServiceTest
+            ├── comment
+            │   └── CommentServiceTest
+            ├── common.config
+            │   └── TestSecurityConfig
+            ├── interest
+            │   ├── controller
+            │   │   └── InterestControllerTest
+            │   ├── domain
+            │   │   ├── InterestKeywordTest
+            │   │   ├── InterestSubscriptionTest
+            │   │   └── InterestTest
+            │   ├── repository
+            │   │   ├── InterestRepositoryTest
+            │   │   └── InterestSubscriptionRepositoryTest
+            │   └── service
+            │       └── InterestServiceTest
+            ├── notification
+            │   ├── exception
+            │   │   └── NotificationExceptionTest
+            │   ├── repository
+            │   │   └── NotificationRepositoryTest
+            │   └── service
+            │       ├── NotificationServiceTest
+            │       └── NotificationServiceUnitTest
+            └── service
+                └── MonewApplicationTests
+```
+### monew-batch
+```
+```
 
 ## 📺구현 홈페이지
-
-
+[Monew](http://monew-alb-1161317653.ap-northeast-2.elb.amazonaws.com)
 
 ## 📑프로젝트 회고록
 
