@@ -455,7 +455,6 @@ src
 
 ## 📑프로젝트 회고록
 
-- 🎥시연 영상
-
+- [🎥시연 영상](https://drive.google.com/file/d/1ZjnE03PViTLNMIK16oB724uWFKqdg7i8/view)
 
 - 🎬PPT
