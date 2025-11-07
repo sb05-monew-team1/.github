@@ -457,4 +457,4 @@ src
 
 - [🎥시연 영상](https://drive.google.com/file/d/1ZjnE03PViTLNMIK16oB724uWFKqdg7i8/view)
 
-- 🎬PPT
+- [🎬PPT](https://www.canva.com/design/DAG3oAcFxG0/mPk4nTPDMfoLZBB4RaT-Ug/view?utm_content=DAG3oAcFxG0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdcccce01ce)
